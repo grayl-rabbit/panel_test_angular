@@ -1,0 +1,5 @@
+https://angular.io
+https://metanit.com/web/angular2/1.1.php
+https://ng-bootstrap.github.io/#/home
+http://fontawesome.io/icons/
+https://codecraft.tv/courses/angular/components/architecting/
