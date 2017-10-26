@@ -1,0 +1,133 @@
+/* You can add global styles to this file, and also import other style files */
+
+#sidemenu {
+    font-family: 'Roboto', sans-serif;
+}
+
+.tabset ul {
+    display: inline-flex;
+    height: 100vh;
+    background-color: #2C2E3E;
+}
+
+.tabset {
+    display: flex;
+}
+
+.tabset .tab-content {
+    width: 100%;
+    background-color: #F2F3F8;
+}
+
+.tabset .tab-content {
+    display: inline;
+}
+
+.tabset .tab-pane.active {
+    display: inline-flex;
+}
+
+menu .s_content .tab-pane.active {
+    width: 100%;
+}
+
+menu,
+.s_content {
+    display: inline;
+}
+
+menu {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link.dropdown-toggle {
+    border: none;
+}
+
+.tabset .s_content .nav-tabs {
+    border: none;
+    height: 56px;
+}
+
+.tabset .s_content .navbar-nav {
+    height: 56px;
+    width: 100%;
+}
+
+.s_content .nav-tabs .nav-link.active {
+    border: none;
+    border-color: transparent;
+}
+
+.s_content .nav-tabs .nav-link:hover {
+    border-color: transparent;
+}
+
+.s_content .nav-tabs .nav-link {
+    padding: 0 0 8px 0;
+    background-color: #FFFFFF;
+    border-radius: 0;
+    color: #676C7B;
+    height: 56px;
+    border: none;
+}
+
+.s_content ul[role="tablist"] {
+    width: 100%;
+}
+
+.nav-pills .nav-link {
+    background-color: #2C2E3E;
+    border-radius: 0;
+    color: #6067CA;
+    width: 200px;
+    height: 56px;
+    line-height: 56px;
+    padding: 0 24px;
+}
+
+.nav-pills .nav-link:first-child {
+    color: #5867DB;
+    background-color: #292B3A;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #292B3A;
+}
+
+.menu-icon {
+    line-height: 56px;
+    padding-right: 16px;
+}
+
+.right {
+    float: right;
+}
+
+.home_txt {
+    margin: 0;
+    color: #FF7800;
+}
+
+.dropdown-menu.show {
+    width: 100%;
+}
+
+.menu_txt {
+    line-height: 56px;
+}
+
+.content_txt {
+    padding: 16px 16px 24px 16px;
+}
+
+.s_content ul[role="tablist"] div:not([id="1"])>.tabset_txt {
+    padding-left: 24px;
+}
+
+.dropdown_txt {
+    height: 32px;
+    padding-left: 24px;
+    color: #676C7B;
+}
